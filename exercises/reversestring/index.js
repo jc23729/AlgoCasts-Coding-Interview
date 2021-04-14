@@ -12,5 +12,6 @@
 // jest fib/test.js
 
 function reverse(str) {}
-
+    const arr = str.split('');
+    
 module.exports = reverse;
