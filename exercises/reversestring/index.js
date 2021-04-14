@@ -11,16 +11,10 @@
 // WRITE jest in command line, folder, and file that test is in 
 // jest fib/test.js
 
+//Solution 3, but hardest
 function reverse(str) {
-    let reversed = '';
-
-    for (let character of str) {
-        reversed = character + reversed;
-    }
-    return reversed;
-
+    return str.split('').reduce((rev, char) => char + rev, '')
 }
-
 
 module.exports = reverse;
 
@@ -34,3 +28,14 @@ module.exports = reverse;
 // }
     
 
+// SOLUTION 2
+
+// function reverse(str) {
+//     let reversed = '';
+
+//     for (let character of str) {
+//         reversed = character + reversed;
+//     }
+//     return reversed;
+
+// }
