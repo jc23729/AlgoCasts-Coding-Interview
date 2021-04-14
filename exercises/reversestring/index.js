@@ -11,11 +11,18 @@
 // WRITE jest in command line, folder, and file that test is in 
 // jest fib/test.js
 
-function reverse(str) {
-    const arr = str.split('');
-    arr.reverse();
-    return arr.join('');
-}
-    
+
+
 
 module.exports = reverse;
+
+
+
+//SOLUTION 1
+// function reverse(str) {
+//     const arr = str.split('');
+//     arr.reverse();
+//     return arr.join('');
+// }
+    
+
