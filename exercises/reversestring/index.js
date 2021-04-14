@@ -7,6 +7,9 @@
 //   reverse('Greetings!') === '!sgniteerG'
 //   capitalize('')
 
+//TO RUN A TEST
+// WRITE jest in command line, folder, and file that test is in 
+// jest fib/test.js
 
 function reverse(str) {}
 
