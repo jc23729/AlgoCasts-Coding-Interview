@@ -11,7 +11,14 @@
 // WRITE jest in command line, folder, and file that test is in 
 // jest fib/test.js
 
+function reverse(str) {
+    let reversed = '';
 
+    for (let character of str) {
+        reversed = character + reversed;
+    }
+
+}
 
 
 module.exports = reverse;
