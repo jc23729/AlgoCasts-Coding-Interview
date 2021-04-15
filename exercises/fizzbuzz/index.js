@@ -47,3 +47,10 @@ module.exports = fizzBuzz;
 
 // If a number doesn’t equally divide by both 3 and 5 and it doesn’t equally divide by only 3, then we check to see if the number is divisible by 5 only. If that is the case, we print out "Buzz".
 
+// if (i % 3 === 0 && i % 5 === 0) {
+//     console.log("FizzBuzz");
+// } else if (i % 3 === 0) {
+//     console.log("Fizz");
+// } else if (i % 5 === 0) {
+//     console.log("Buzz");
+// }
