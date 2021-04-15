@@ -32,3 +32,8 @@ module.exports = fizzBuzz;
 // First, we create a for-loop that will count from 1 to 100.
 // for (let i = 1; i <= 100; i++) {
 // }
+
+// Inside the for-loop, we will create a series of if...else statements. The first if-statement checks to see if the number is divisible by both 3 and 5. If that’s the case, we print "FizzBuzz" using console.log().
+// if (i % 3 === 0 && i % 5 === 0) {
+//     console.log("FizzBuzz");
+// }
