@@ -44,3 +44,6 @@ module.exports = fizzBuzz;
 // } else if (i % 3 === 0) {
 //     console.log("Fizz");
 // }
+
+// If a number doesn’t equally divide by both 3 and 5 and it doesn’t equally divide by only 3, then we check to see if the number is divisible by 5 only. If that is the case, we print out "Buzz".
+
